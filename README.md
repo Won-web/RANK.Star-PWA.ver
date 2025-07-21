@@ -29,4 +29,5 @@ Frontend: PWA (Progressive Web App)
 인증: OAuth2 (카카오, 구글 등)
 모바일 앱: swift/java (iOS/Android 네이티브 앱)
 
+docs/기능소개에 화면캡쳐가 있습니다
 
