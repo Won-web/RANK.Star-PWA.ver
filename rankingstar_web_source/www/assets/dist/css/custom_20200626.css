@@ -1,0 +1,251 @@
+.lbl_dashboard {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 5px;
+}
+.openlabel{
+    color :#78b553;
+}
+.preparinglabel{
+    color :#ffc62e;
+}
+.closelabel{
+    color :#64a1da;
+}
+
+
+.count {
+    /* margin-left: 33%; */
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.circle {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    font-size: 20px;
+    color: #fff;
+    line-height: 100px;
+    text-align: center;
+    display: inline-block;
+}
+
+.open {
+    background: linear-gradient(rgb(127, 183, 95) 0%, rgb(110, 177, 65) 50%, rgb(95, 161, 52) 100%) white;
+}
+
+.closed {
+    background: linear-gradient(rgb(112, 165, 218) 0%, rgb(83, 155, 219) 50%, rgb(66, 136, 200) 100%) white;
+}
+
+.preparing {
+    background: linear-gradient(rgb(255, 198, 71) 0%, rgb(255, 198, 0) 50%, rgb(227, 180, 0) 100%) white;
+}
+
+.my-custom-scrollbar {
+    position: relative;
+    max-height: 250px;
+    overflow: auto;
+}
+
+.table-wrapper-scroll-y {
+    display: block;
+}
+
+.sales {
+    margin-bottom: 7px;
+}
+
+.star-count {
+    color: #007bff;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.total-star-row {
+    color: #007bff;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.bg-star {
+    color: #007bff;
+}
+
+.note-toolbar {
+    z-index: 1;
+}
+
+.cat-info-text {
+    color: #1000ff;
+    font-size: 12px;
+}
+
+.tagator_options {
+    border: none;
+}
+
+.tagator_tag {
+    background-color: #fff;
+    border-radius: 32px;
+    color: #5f5d5d;
+    padding: 4px 24px 4px 14px;
+    border: 2px solid #828282;
+    font-weight: 600;
+}
+
+.tagator_tag_remove {
+    color: #444444;
+    padding: 9px 8px 4px 5px;
+    font-size: 12px;
+}
+
+.tagator_tag_remove:hover {
+    background-color: transparent;
+    /* color: #101010; */
+    color: #FF0000;
+}
+
+.tagator_tag_remove:focus {
+    border: none;
+}
+
+.button_margin {
+    margin-top: 7px !important;
+}
+
+.cost_button {
+    margin-left: 47px !important;
+    margin-top: 5px;
+}
+
+.note-group-select-from-files {
+    display: none !important;
+}
+
+.add_button {
+    position: absolute;
+    right: 24px;
+    top: 4px;
+}
+
+.modal_image {
+    position: relative;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: 100%;
+    pointer-events: auto;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid rgba(0, 0, 0, .2);
+    border-radius: .3rem;
+    box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, .5);
+    outline: 0;
+}
+
+.delete {
+    color: #080808;
+    display: none;
+    position: absolute;
+    left: 79px;
+    top: 6px;
+    background-color: darkgray;
+    /* margin-right: 3px; */
+    border: 5px solid darkgrey;
+    border-radius: 12px;
+    transition: all .5s ease-in-out;
+}
+
+.deleteContestant{
+    text-align: center;
+}
+.deleteicon{
+    display: block;
+}
+
+.imagedisplay:hover .delete {
+    display: block
+}
+
+.scroll {
+    height: 200px;
+    overflow-y: scroll;
+}
+
+.imageGallary {
+    /* margin: 18px; */
+    margin-bottom: 20px;
+}
+
+.videoGallary {
+    margin-top: 24px;
+    margin-right: 135px;
+    ;
+}
+
+.checkboxspace {
+    margin-left: 11px;
+}
+
+.checkboxheading {
+    margin-top: -20px;
+}
+
+.gallarycontent {
+    width: 100%;
+    padding: 5px;
+}
+
+.gallarycontent span {
+    width: 250px;
+}
+
+.dz-message {
+    text-align: center;
+    font-size: 28px;
+}
+
+.spacing {
+    margin: 10px 10px 10px 10px;
+}
+
+.deletevideo {
+    color: #080808;
+    display: none;
+    position: absolute;
+    left: 176px;
+    top: 6px;
+    background-color: darkgray;
+    /* margin-right: 3px; */
+    border: 5px solid darkgrey;
+    border-radius: 12px;
+    transition: all .5s ease-in-out;
+}
+
+.imagedisplay:hover .deletevideo {
+    display: block
+}
+
+.spin-dot-item {
+    position: absolute;
+    display: block;
+    width: 9px;
+    height: 9px;
+    background-color: #1890ff;
+    border-radius: 100%;
+    -webkit-transform: scale(.75);
+    -ms-transform: scale(.75);
+    transform: scale(.75);
+    -webkit-transform-origin: 50% 50%;
+    -ms-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+    opacity: .3;
+    -webkit-animation: antSpinMove 1s infinite linear alternate;
+    animation: antSpinMove 1s infinite linear alternate;
+}
+.showBannerClass{
+    margin-left: 50px;
+}
+/* .table { font-size: 12px !important } */

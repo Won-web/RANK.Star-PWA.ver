@@ -1,0 +1,13 @@
+/* Kit 93 Custom Styles */
+.envato-kit-93-inline-block{
+	display: inline-block;
+}
+
+.envato-kit-93-drop-cap .elementor-drop-cap-letter{
+	margin-top: 18px;
+	margin-left: 15px;
+}
+
+.envato-kit-93-button .elementor-button{
+	width: 100%;
+}

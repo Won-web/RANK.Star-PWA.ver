@@ -1,0 +1,5 @@
+<?php
+#! / usr / local / php / bin / php (PHP7.0)
+$cronURL = "http://ranking-star.com/api/sendByCron";
+$curlCommand = "curl {$cronURL}";
+exec($curlCommand);

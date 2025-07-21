@@ -1,0 +1,25 @@
+
+# BEGIN WPForms
+# “WPForms에서 시작”과 “WPForms에서 끝” 사이의 지시(줄)은
+# 동적으로 생성하고, 워드프레스 필터를 통해서만 수정해야 합니다.
+# 이들 표지 사이의 지시를 변경하면 덮어쓸 것입니다.
+# Disable PHP and Python scripts parsing.
+<Files *>
+  SetHandler none
+  SetHandler default-handler
+  RemoveHandler .cgi .php .php3 .php4 .php5 .phtml .pl .py .pyc .pyo
+  RemoveType .cgi .php .php3 .php4 .php5 .phtml .pl .py .pyc .pyo
+</Files>
+<IfModule mod_php5.c>
+  php_flag engine off
+</IfModule>
+<IfModule mod_php7.c>
+  php_flag engine off
+</IfModule>
+<IfModule mod_php8.c>
+  php_flag engine off
+</IfModule>
+<IfModule headers_module>
+  Header set X-Robots-Tag "noindex"
+</IfModule>
+# END WPForms

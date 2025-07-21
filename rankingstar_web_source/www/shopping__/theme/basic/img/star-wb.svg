@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="21.634" height="20.519" viewBox="0 0 21.634 20.519">
+    <defs>
+        <linearGradient id="prefix__linear-gradient" x1="-.238" x2=".842" y1=".183" y2=".647" gradientUnits="objectBoundingBox">
+            <stop offset=".08" stop-color="#af0091"/>
+            <stop offset=".675" stop-color="#ff0073"/>
+            <stop offset=".983" stop-color="#ff7800"/>
+        </linearGradient>
+        <linearGradient id="prefix__linear-gradient-2" x1="-1.048" x2="4.069" y1="-.031" y2="1.723" xlink:href="#prefix__linear-gradient"/>
+        <linearGradient id="prefix__linear-gradient-3" x1="-.455" x2=".625" y1=".09" y2=".554" xlink:href="#prefix__linear-gradient"/>
+        <linearGradient id="prefix__linear-gradient-4" x1="-2.422" x2="2.696" y1="-.501" y2="1.252" xlink:href="#prefix__linear-gradient"/>
+        <linearGradient id="prefix__linear-gradient-5" x1="-1.918" x2="-.837" y1="-.537" y2="-.073" xlink:href="#prefix__linear-gradient"/>
+        <linearGradient id="prefix__linear-gradient-6" x1="-3.776" x2="1.341" y1="-.965" y2=".788" xlink:href="#prefix__linear-gradient"/>
+        <linearGradient id="prefix__linear-gradient-7" x1="-2.586" x2="-1.505" y1="-.823" y2="-.36" xlink:href="#prefix__linear-gradient"/>
+        <linearGradient id="prefix__linear-gradient-8" x1="-3.207" x2="1.911" y1="-.77" y2=".983" xlink:href="#prefix__linear-gradient"/>
+        <linearGradient id="prefix__linear-gradient-9" x1="-1.5" x2="-.419" y1="-.358" y2=".106" xlink:href="#prefix__linear-gradient"/>
+        <linearGradient id="prefix__linear-gradient-10" x1="-1.554" x2="3.563" y1="-.204" y2="1.55" xlink:href="#prefix__linear-gradient"/>
+    </defs>
+    <g id="prefix__star_WB" transform="translate(2.116 1.923)">
+        <g id="prefix__star">
+            <rect id="prefix__Rectangle_491" width="2.371" height="7.604" data-name="Rectangle 491" rx="1.186" transform="rotate(-160 4.509 3.307)"/>
+            <rect id="prefix__Rectangle_492" width="2.371" height="7.604" data-name="Rectangle 492" rx="1.186" transform="rotate(-89.233 4.055 3.53)"/>
+            <rect id="prefix__Rectangle_493" width="2.371" height="7.604" data-name="Rectangle 493" rx="1.186" transform="rotate(130.767 1.44 6.505)"/>
+            <rect id="prefix__Rectangle_494" width="2.371" height="7.604" data-name="Rectangle 494" rx="1.186" transform="rotate(-165.454 3.625 7.819)"/>
+            <rect id="prefix__Rectangle_495" width="2.371" height="7.604" data-name="Rectangle 495" rx="1.186" transform="rotate(54.546 -5.426 13.675)"/>
+            <rect id="prefix__Rectangle_496" width="2.371" height="7.604" data-name="Rectangle 496" rx="1.186" transform="rotate(125.454 3.612 11.085)"/>
+            <rect id="prefix__Rectangle_497" width="2.371" height="7.604" data-name="Rectangle 497" rx="1.186" transform="rotate(-14.546 40.17 -35.975)"/>
+            <rect id="prefix__Rectangle_498" width="2.371" height="7.604" data-name="Rectangle 498" rx="1.186" transform="rotate(49.233 2.803 19.65)"/>
+            <rect id="prefix__Rectangle_499" width="2.371" height="7.604" data-name="Rectangle 499" rx="1.186" transform="rotate(-90.767 8.434 -.782)"/>
+            <rect id="prefix__Rectangle_500" width="2.371" height="7.604" data-name="Rectangle 500" rx="1.186" transform="rotate(-20 5.894 -19.977)"/>
+        </g>
+        <circle id="prefix__Ellipse_45" cx="2" cy="2" r="2" data-name="Ellipse 45" transform="translate(7 6.805)" style="fill:#fff"/>
+        <g id="prefix__star-2" data-name="star">
+            <rect id="prefix__Rectangle_491-2" width="2.371" height="7.604" data-name="Rectangle 491" rx="1.186" transform="rotate(-160 4.509 3.307)"/>
+            <rect id="prefix__Rectangle_492-2" width="2.371" height="7.604" data-name="Rectangle 492" rx="1.186" transform="rotate(-89.233 4.055 3.53)"/>
+            <rect id="prefix__Rectangle_493-2" width="2.371" height="7.604" data-name="Rectangle 493" rx="1.186" transform="rotate(130.767 1.44 6.505)"/>
+            <rect id="prefix__Rectangle_494-2" width="2.371" height="7.604" data-name="Rectangle 494" rx="1.186" transform="rotate(-165.454 3.625 7.819)"/>
+            <rect id="prefix__Rectangle_495-2" width="2.371" height="7.604" data-name="Rectangle 495" rx="1.186" transform="rotate(54.546 -5.426 13.675)"/>
+            <rect id="prefix__Rectangle_496-2" width="2.371" height="7.604" data-name="Rectangle 496" rx="1.186" transform="rotate(125.454 3.612 11.085)"/>
+            <rect id="prefix__Rectangle_497-2" width="2.371" height="7.604" data-name="Rectangle 497" rx="1.186" transform="rotate(-14.546 40.17 -35.975)"/>
+            <rect id="prefix__Rectangle_498-2" width="2.371" height="7.604" data-name="Rectangle 498" rx="1.186" transform="rotate(49.233 2.803 19.65)"/>
+            <rect id="prefix__Rectangle_499-2" width="2.371" height="7.604" data-name="Rectangle 499" rx="1.186" transform="rotate(-90.767 8.434 -.782)"/>
+            <rect id="prefix__Rectangle_500-2" width="2.371" height="7.604" data-name="Rectangle 500" rx="1.186" transform="rotate(-20 5.894 -19.977)"/>
+        </g>
+    </g>
+</svg>

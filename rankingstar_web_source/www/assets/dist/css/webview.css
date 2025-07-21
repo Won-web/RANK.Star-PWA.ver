@@ -1,0 +1,44 @@
+.custom{
+    background-color: #f0f0f0 !important;
+  }
+  .custom-a{
+    color: #50555c !important;
+    font-weight: 600;
+  }
+  .first{
+    width:33.33%;
+    max-width:33.33%;
+  }
+  .second{
+    width:33.33%;
+    max-width:33.33%;
+  }
+  .third{
+    width:33.35%;
+    max-width:33.34%;
+  }
+  .nav-link.active{
+    background-color: #ff5088 !important;
+    color: #ffffff !important;
+  }
+  .paid-charge-list{
+    display: flex;
+    margin-bottom: 5px;
+  }
+  .paid-charge-list>.item-left{
+    width:80%;
+  }
+  .paid-charge-list>.item-right{
+    width:20%;
+  }
+  .main-label{
+      color: #ff5088 !important;
+      font-weight: 600;
+  }
+  .btn-purchase {
+    color: #fff;
+    /* background-color: #dc3545; */
+    background-image: linear-gradient(to left, #ff5488, #dd2c8b);
+    border-color: #dc3545;
+    box-shadow: none;
+}

@@ -1,0 +1,4 @@
+php_flag register_globals on
+php_value mysql.default_charset UTF8
+php_value max_input_time 600
+php_value max_execution_time 600

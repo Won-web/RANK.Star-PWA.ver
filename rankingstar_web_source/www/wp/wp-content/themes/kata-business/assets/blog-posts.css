@@ -1,0 +1,512 @@
+/* Blog Posts
+-------------------------------------------------- */
+.kata-blog-post {
+    margin-bottom: 20px;
+}
+
+.kata-sidebar {
+    margin-top: 50px;
+}
+
+.kata-kata-right-sidebar {
+    padding-left: 30px;
+}
+
+.kata-kata-right-sidebar {
+    padding-right: 30px;
+}
+
+.kata-sidebar .kata-widget .search-form input[type="submit"] {
+    padding: 10px 15px;
+    font-size: 11px;
+    letter-spacing: 0.5px;
+}
+
+.kata-sidebar .kata-widget ul li {
+    font-size: 14px;
+}
+
+.kata-post-thumbnail {
+    margin-bottom: 10px;
+}
+
+.kata-post-thumbnail:hover img {
+    opacity: 0.95;
+}
+
+.kata-post-thumbnail a {
+    display: inline-block;
+}
+
+.kata-post-thumbnail.col-sm-6 img {
+    width: 100%;
+}
+
+.kata-post-metadata {
+    padding: 5px 0;
+}
+
+.kata-post-categories {
+    margin-top: 25px
+}
+
+.kata-category-links,
+.kata-tags-links,
+.kata-post-date,
+.kata-comments-number,
+.kata-post-author {
+    padding: 5px 15px 5px 0;
+    display: inline-block;
+}
+
+.kata-category-links,
+.kata-category-links a,
+.kata-tags-links a,
+.kata-post-date a,
+.kata-comments-number span,
+.kata-post-author a {
+    font-size: 13px;
+    color: #919293;
+}
+
+.kata-category-links a:hover,
+.kata-tags-links a:hover,
+.kata-post-date a:hover,
+.kata-post-author a:hover {
+    color: #414243;
+    text-decoration: underline;
+}
+
+.kata-category-links i,
+.kata-tags-links i,
+.kata-post-date i,
+.kata-comments-number i,
+.kata-post-author i {
+    font-size: 14px;
+    vertical-align: middle;
+    margin-right: 3px;
+    fill: #403cf2;
+    width: 14px;
+    height: 14px;
+    line-height: 14px;
+}
+
+.kata-post-author img {
+    margin-right: 3px;
+}
+
+.kata-post-title {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.kata-post-title,
+.kata-post-title a {
+    display: block;
+    color: #010203;
+    font-weight: 600;
+}
+
+.kata-post-title a:hover {
+    text-decoration: underline;
+}
+
+.kata-post-excerpt {
+    color: #616263;
+    font-size: 15px;
+    line-height: 1.62;
+    margin-bottom: 20px;
+}
+
+.kata-post-readmore {
+    display: inline-block;
+    font-size: 14px;
+}
+
+.kata-post-pagination {
+    display: block;
+    width: 100%;
+    margin-top: 20px;
+}
+
+/* Post
+-------------------------------------------------- */
+.kata-default-post {
+    margin: 50px 0 10px 0;
+}
+
+.post.has-post-thumbnail .kata-default-post,
+.has-post-thumbnail.kata-default-post {
+    margin-top: 110px
+}
+
+.kata-default-post .kata-post-details {
+    background: #F4F5F7;
+    border-radius: 5px;
+    padding-bottom: 45px;
+}
+
+.kata-default-post.sticky .kata-post-details {
+    background: #f1f1f1;
+}
+
+.kata-default-post .kata-post-categories a,
+.kata-default-post .kata-tags-links a {
+    color: #000;
+    font-size: 12px;
+    border: 1px solid #E5E6E8;
+    background: #fff;
+    padding: 7px 17px;
+    display: inline-block;
+    border-radius: 5px;
+    margin-bottom: 4px;
+}
+
+.kata-default-post .kata-post-thumbnail img {
+    border-radius: 5px;
+    box-shadow: 0px 25px 25px 0px rgba(1, 2, 3, 0.10);
+    margin: -60px 0 15px 0;
+}
+
+.kata-default-post .kata-post-thumbnail {
+    margin: 0 auto;
+}
+
+.kata-default-post .kata-post-title h1,
+.kata-default-post .kata-post-title {
+    font-size: 40px;
+    color: #070809;
+    font-weight: 500;
+    line-height: 1.3;
+    margin-top: 0;
+}
+
+.kata-default-post .kata-post-title h1 {
+    font-size: 50px;
+    line-height: 1.1;
+}
+
+.kata-default-post .kata-post-date-wrap span,
+.kata-default-post .kata-post-author-wrap span {
+    display: block;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.kata-default-post .kata-post-date-wrap .kata-post-date,
+.kata-default-post .kata-post-author-wrap .kata-post-author {
+    color: #929394;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.kata-default-post .kata-post-default-meta {
+    border-left: 1px solid #dedee0;
+    padding-left: 40px;
+    padding-top: 5px;
+    margin-top: 22px;
+    position: absolute;
+    top: 50%;
+    transform: translatey(-50%);
+    -webkit-transform: translatey(-50%);
+}
+
+.kata-default-post .kata-post-content {
+    padding: 40px 10% 60px;
+}
+
+.kata-default-post .kata-post-content blockquote {
+    position: relative;
+    margin-left: 30px;
+    color: #505153;
+}
+
+.kata-default-post .kata-post-content blockquote p {
+    font-size: 19px;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.kata-default-post .kata-post-content blockquote:before {
+    font-family: serif;
+    content: "“";
+    position: absolute;
+    left: -30px;
+    font-size: 42px;
+    top: 0px;
+}
+
+.kata-default-post .kata-post-tags span,
+.kata-default-post .kata-post-social-share-title {
+    font-weight: 700;
+    margin-right: 5px;
+}
+
+.kata-default-post .kata-tags-links a {
+    font-weight: 500;
+    padding: 5px 13px 8px 13px;
+}
+
+.kata-default-post .kata-post-social-share {
+    margin: 45px 0 0 0;
+}
+
+.kata-default-post .kata-post-tags {
+    margin-top: 60px;
+}
+
+.kata-default-post .kata-post-social-share a {
+    background: #F4F5F7;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    border-radius: 50%;
+    line-height: 2.5;
+    text-align: center;
+    margin-right: 25px;
+    transition: all 0.1s;
+    padding-top: 2px;
+}
+
+.kata-default-post .kata-post-social-share a:hover {
+    background: #000;
+}
+
+.kata-default-post .kata-post-social-share a:hover svg path {
+    fill: #fff !important;
+}
+
+.kata-default-post .post-content-header {
+    width: 85%;
+    margin: 0 auto;
+    padding-left: 60px;
+}
+
+.kata-default-post .format-aside .kata-post-default-meta {
+    border-left: none;
+    margin-top: 0;
+}
+
+.kata-default-post .format-aside .kata-post-date-wrap,
+.kata-default-post .format-aside .kata-post-author-wrap {
+    display: inline-block
+}
+
+.kata-default-post .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 3em 0 3em -0.8em;
+    width: calc(100% + 1.6em);
+}
+
+.kata-default-post .gallery-item {
+    margin: 0.8em 0;
+    padding: 0 0.8em;
+    width: 100%;
+}
+
+.kata-default-post .gallery-caption {
+    display: block;
+    margin-top: 0.8em;
+}
+
+.kata-post-author-wrap {
+    margin-top: 17px;
+}
+
+.col-sm-12 .kata-author-wrapper {
+    margin: 40px -20px;
+    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.01);
+}
+
+
+/* Loop
+-------------------------------------------------- */
+.kata-default-loop .post-content-header {
+    padding-left: 0;
+    width: 90%;
+}
+
+.kata-default-loop.loop-two {
+    margin: 50px 0;
+}
+
+.kata-default-loop.loop-two .kata-post-thumbnail img {
+    margin: -20px 0 0 0;
+    border: 1px solid #E5E6E8;
+    box-shadow: unset;
+    width: 100%;
+}
+
+.kata-default-loop.loop-two .post-content-header {
+    width: 96%;
+}
+
+.kata-default-loop .kata-post-title-loop-two {
+    font-size: 32px;
+    color: #070809;
+    font-weight: 500;
+    line-height: 1.2;
+    line-break: anywhere;
+}
+
+.kata-default-loop.loop-two .kata-post-categories {
+    margin-top: 40px;
+}
+
+.kata-default-loop.loop-two .kata-post-excerpt {
+    max-width: 90%;
+}
+
+.kata-default-loop.loop-two .kata-post-excerpt {
+    max-width: 90%;
+}
+
+.kata-default-loop.loop-two .kata-post-excerpt p {
+    color: #78797b;
+    font-size: 17px;
+    line-height: 1.7;
+}
+
+.kata-default-loop.loop-two .kata-post-content-wrap {
+    padding-right: 20px;
+}
+
+.kata-post-title-wrap h2:hover {
+    text-decoration: underline;
+}
+
+/* post formate Quote */
+.kata-default-post.format-quote blockquote {
+    position: relative;
+    margin-left: 30px;
+    color: #505153;
+}
+
+.kata-default-post.format-quote blockquote p {
+    font-size: 19px;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.kata-default-post.format-quote blockquote:before {
+    font-family: dashicons;
+    content: "\f205";
+    position: absolute;
+    left: -36px;
+    font-size: 22px;
+    top: 0;
+    transform: rotate(180deg);
+}
+
+@media (max-width: 769px) {
+    .kata-post-default-meta {
+        display: none;
+    }
+
+    .kata-default-loop .kata-post-title-loop-two {
+        font-size: 20px;
+        margin-top: 10px;
+    }
+
+    .kata-default-loop.loop-two .kata-post-excerpt p {
+        font-size: 15px;
+    }
+
+    .kata-default-loop.loop-two .kata-post-categories,
+    .kata-default-loop.loop-two .kata-post-content-wrap,
+    .kata-default-loop.loop-two .kata-post-categories {
+        width: 88%;
+        margin: 0 auto;
+    }
+
+    .kata-default-loop.loop-two .kata-post-content-wrap {
+        border: none;
+    }
+
+    .kata-default-loop.loop-two .kata-post-categories {
+        margin-top: 10px;
+    }
+
+    .kata-default-loop .kata-default-post .kata-post-title {
+        font-size: 30px;
+        max-width: 100%;
+    }
+
+    .kata-default-post .post-content-header {
+        padding-left: 0;
+    }
+
+    .kata-default-post.loop-two .kata-post-thumbnail {
+        margin: 0 auto 20px;
+    }
+
+    .kata-default-loop.loop-two .kata-post-excerpt {
+        max-width: 100%;
+    }
+
+    .kata-default-post .kata-post-thumbnail img {
+        margin: -50px 0 50px 0;
+    }
+
+    .kata-default-post .kata-post-content {
+        padding: 15px 5%;
+    }
+
+    .kata-default-post .kata-post-content blockquote p {
+        font-size: 18px;
+    }
+
+    .kata-default-post .kata-post-content blockquote p {
+        font-size: 18px;
+    }
+
+    .kata-default-post {
+        margin: 200px 0 0 0;
+    }
+}
+
+@media (max-width: 481px) {
+    .kata-default-post {
+        margin: 130px 0 0 0;
+    }
+
+    .kata-default-post .kata-post-title h1,
+    .kata-default-post .kata-post-title {
+        font-size: 25px;
+    }
+}
+
+@media (min-width: 768px) {
+    .kata-default-post .gallery-columns-2 .gallery-item {
+        max-width: 50%;
+    }
+
+    .kata-default-post .gallery-columns-3 .gallery-item {
+        max-width: 33.33%;
+    }
+
+    .kata-default-post .gallery-columns-4 .gallery-item {
+        max-width: 25%;
+    }
+
+    .kata-default-post .gallery-columns-5 .gallery-item {
+        max-width: 20%;
+    }
+
+    .kata-default-post .gallery-columns-6 .gallery-item {
+        max-width: 16.66%;
+    }
+
+    .kata-default-post .gallery-columns-7 .gallery-item {
+        max-width: 14.28%;
+    }
+
+    .kata-default-post .gallery-columns-8 .gallery-item {
+        max-width: 12.5%;
+    }
+
+    .kata-default-post .gallery-columns-9 .gallery-item {
+        max-width: 11.11%;
+    }
+}

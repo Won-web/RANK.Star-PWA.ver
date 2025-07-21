@@ -1,0 +1,328 @@
+/* single
+--------------------------------------------------- */
+.kata-post-content a {
+    text-decoration: underline;
+}
+
+.single .post:not(.has-post-thumbnail) .kata-default-post .kata-post-details {
+    padding-top: 10px;
+}
+
+.kata-default-post .kata-tags-links a {
+    font-weight: 500;
+    padding: 5px 13px 8px 13px;
+}
+
+.kata-default-post .kata-post-social-share {
+    margin: 45px 0 0 0;
+}
+
+.kata-default-post .kata-post-tags {
+    margin-top: 60px;
+}
+
+.kata-default-post .kata-post-social-share a {
+    background: #F4F5F7;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    border-radius: 50%;
+    line-height: 2.5;
+    text-align: center;
+    margin-right: 25px;
+    transition: all 0.1s;
+    padding-top: 2px;
+}
+
+.kata-default-post .kata-post-social-share a:hover {
+    background: #000;
+}
+
+.kata-default-post .kata-post-social-share a:hover svg path {
+    fill: #fff !important;
+}
+
+.kata-default-post .post-content-header {
+    width: 100%;
+    margin: 0 auto;
+    padding-left: 10%;
+}
+
+.kata-default-post .format-aside .kata-post-default-meta {
+    border-left: none;
+    margin-top: 0;
+}
+
+.kata-default-post .format-aside .kata-post-date-wrap,
+.kata-default-post .format-aside .kata-post-author-wrap {
+    display: inline-block
+}
+
+.kata-default-post .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 3em 0 3em -0.8em;
+    width: calc(100% + 1.6em);
+}
+
+.kata-default-post .gallery-item {
+    margin: 0.8em 0;
+    padding: 0 0.8em;
+    width: 100%;
+}
+
+.kata-default-post .gallery-caption {
+    display: block;
+    margin-top: 0.8em;
+}
+
+.kata-post-author-wrap {
+    margin-top: 17px;
+}
+
+/* Comments
+-------------------------------------------------- */
+.kata-comments-area {
+    margin-top: 291px;
+}
+
+.kata-comments-area .comment-respond {
+    max-width: 510px;
+    margin: 0 auto;
+}
+
+.kata-comments-area textarea {
+    padding: 17px 15px;
+    margin-bottom: 28px
+}
+
+.kata-comments-area .comment-reply-title {
+    color: #070809;
+    font-size: 42px;
+    font-weight: 400;
+}
+
+.kata-comments-area textarea,
+.kata-comments-area input[type='text'],
+.kata-comments-area input[type='email'] {
+    border: 1px solid #e5e6e8;
+    border-radius: 5px;
+}
+
+.kata-comments-area p {
+    position: relative;
+}
+
+.kata-comments-area label {
+    color: #929394;
+    font-size: 14px;
+    font-weight: 400;
+    display: inline-block;
+}
+
+.kata-comments-area input[type='text'],
+.kata-comments-area input[type='email'] {
+    padding: 17px 15px;
+}
+
+.kata-comments-area .comment-form-comment label,
+.kata-comments-area .comment-form-url label {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+}
+
+.kata-comments-area .comment-form-author,
+.kata-comments-area .comment-form-email {
+    width: 46%;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.kata-comments-area .comment-form-email {
+    float: right
+}
+
+.kata-comments-area input[type='submit'] {
+    font-size: 16px;
+    background: #000000;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+    padding: 20px 23px;
+    letter-spacing: 1.5px;
+    box-shadow: 0 5px 20px 0px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    transition: all .3s ease;
+}
+
+.kata-comments-area input[type='submit']:focus {color: #000;background: #fff;}
+
+#cancel-comment-reply-link {
+    padding: 5px 8px 6px;
+    font-size: 12px !important;
+    text-transform: uppercase;
+    letter-spacing: 0;
+    background: #000000;
+    box-shadow: 0 5px 20px 0px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    color: #fff;
+    transition: all .3s ease;
+}
+
+.kata-comments-area input[type='submit']:hover,
+#cancel-comment-reply-link:hover {
+    background: #fff;
+    color: #000;
+}
+
+.kata-comments-area .form-submit {
+    margin-bottom: 50px;
+}
+
+.kata-comments-area .comment-form-cookies-consent label {
+    display: inline-block;
+}
+
+.kata-comments-area .kata-comments-title {
+    color: #070809;
+    font-size: 21px;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+
+.kata-comments-area .kata-comment-list li {
+    list-style: none;
+}
+
+.kata-comments-area .kata-comment-list li.bypostauthor {
+    background: rgb(251, 251, 251, 0.4);
+}
+
+.kata-comments-area .comment-author.vcard .fn,
+.kata-comments-area .says {
+    vertical-align: top;
+}
+
+.kata-comments-area .comment-author .fn a {
+    color: #070809;
+    font-size: 17px;
+    margin-right: 15px;
+    text-transform: capitalize;
+}
+
+.kata-comments-area a:hover {
+    text-decoration: underline;
+}
+
+.kata-comments-area .says {
+    color: #929394;
+    font-size: 14px;
+}
+
+.kata-comments-area .says {
+    color: #929394;
+    font-size: 14px;
+    display: inline-block;
+    margin-top: 2px;
+}
+
+.kata-comments-area .comment-metadata,
+.kata-comments-area .comment-author.vcard {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.kata-comments-area .comment-metadata a {
+    color: #929394;
+    font-size: 14px;
+}
+
+.kata-comments-area .children {
+    margin-left: 80px;
+}
+
+.kata-comments-area .comment-author.vcard img {
+    margin-right: 18px;
+    border-radius: 5px;
+}
+
+.kata-comments-area .comment-content {
+    margin-left: 105px;
+    margin-top: -45px;
+}
+
+.kata-comments-area .comment-awaiting-moderation {
+    display: block;
+    margin-left: 105px;
+    color: #929394;
+}
+
+.kata-comments-area .reply {
+    margin-left: 125px;
+    position: relative;
+}
+
+
+.kata-comments-area img.avatar.avatar-32.photo {
+    margin-right: 20px;
+}
+
+.kata-comments-area .reply a {
+    color: #070809;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.kata-comments-area article.comment-body {
+    margin-top: 60px;
+}
+
+.kata-comments-area .reply:before {
+    position: absolute;
+    content: url(./svg/reply.svg);
+    left: -20px;
+    top: 3px;
+}
+
+.kata-comments-area span.label-wrap {
+    position: absolute;
+    left: 15px;
+    top: 10px;
+}
+
+@media (max-width: 768px) {
+    .kata-comments-area .comment-content {
+        margin: 0;
+    }
+
+    .kata-comments-area .comment-author.vcard img {
+        margin-bottom: 20px;
+    }
+
+    .kata-comments-area .comment-author.vcard .fn,
+    .kata-comments-area .says {
+        display: block;
+    }
+
+    .kata-comments-area .children {
+        margin-left: 20px;
+        margin-top: 0;
+    }
+
+    .kata-comments-area .reply {
+        margin-left: 18px;
+    }
+
+    .kata-comments-area .comment-reply-title small {
+        display: block;
+    }
+
+    .kata-comments-area {
+        width: 95%;
+    }
+
+    .kata-comments-area .kata-comments-title {
+        font-size: 24px;
+    }
+}

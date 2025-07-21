@@ -1,0 +1,31 @@
+# Ignore directories
+Application Data/
+AppData/
+Documents/
+Downloads/
+
+# Ignore long path files
+rankingstar_web_source/www/wp/wp-content/plugins/colibri-page-builder/extend-builder/assets/partials-images/
+rankingstar_web_source/www/wp/wp-content/plugins/woocommerce/packages/woocommerce-blocks/assets/js/atomic/blocks/product-elements/add-to-cart/
+rankingstar_web_source/www/wp/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/atomic-block-components/
+
+# Ignore gallery images
+rankingstar_web_source/www/assets/gallary/
+
+# Ignore log files
+*.log
+*.tmp
+
+# Ignore large files
+*.zip
+*.tar.gz
+*.mp4
+*.jpg
+*.png
+
+# Ignore large files
+*.mp4
+*.zip
+*.tar.gz
+*.jpg
+*.png
