@@ -16,7 +16,7 @@ RANK.S User는 애플리케이션의 사용자 페이지(앱)를 위한 소스 �
 1. 클론 받기:
    git clone https://github.com/Won-web/Rankingstar-user.git
 2. 종속성 설치:
-PWA로 배포될 예정입니다.
+PWA로 배포합니다.
 API 서버와 연결하여 사용자 데이터를 관리합니다.
 
 3.실행:
