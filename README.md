@@ -14,7 +14,7 @@ PWA(Progressive Web App) 방식으로 개발된 웹앱은 Android와 iOS 환경�
 
 ## 설치 방법
 1. 클론 받기:
-   git clone https://github.com/Won-web/Rankingstar-user.git
+   git clone https://github.com/Won-web/RANK.Star-PWA.ver.git
 2. 종속성 설치:
 PWA로 배포합니다.
 API 서버와 연결하여 사용자 데이터를 관리합니다.
