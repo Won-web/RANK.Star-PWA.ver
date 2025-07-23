@@ -29,5 +29,5 @@ Frontend: PWA (Progressive Web App)
 인증: OAuth2 (카카오, 구글 등)
 모바일 앱: swift/java (iOS/Android 네이티브 앱)
 
-docs/기능소개에 화면캡쳐가 있습니다
+시스템에 대한 각 화면 기능소개는 [기능소개 PPT 파일](docs/랭킹스타_기능소개.pptx)에서 확인할 수 있습니다.
 
